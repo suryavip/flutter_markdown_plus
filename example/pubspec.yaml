@@ -7,19 +7,21 @@ environment:
   flutter: ">=3.27.1"
 
 dependencies:
+  cupertino_ui: any
   flutter:
     sdk: flutter
-
-#  flutter_markdown_plus: ^1.0.3
-
+    
+    #  flutter_markdown_plus: ^1.0.3
+    
+    
   flutter_markdown_plus:
     path: ../
-#  flutter_markdown_plus_latex:
-#    path: ../../flutter_markdown_plus_latex   # For relative path testing
-
+    #  flutter_markdown_plus_latex:
+    #    path: ../../flutter_markdown_plus_latex   # For relative path testing
+    
+    
   markdown: ^7.3.0
-
-
+  material_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
